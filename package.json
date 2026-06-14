@@ -1,0 +1,33 @@
+{
+  "name": "openclaw-aso-toolkit",
+  "version": "1.0.0",
+  "description": "App Store Optimization (ASO) tools for OpenClaw — metadata audit, keyword field builder, keyword ideas, and title optimizer for the App Store and Google Play.",
+  "type": "module",
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "aso",
+    "app-store-optimization",
+    "app-store",
+    "google-play",
+    "keywords",
+    "mobile-marketing"
+  ],
+  "homepage": "https://asoagency.io",
+  "author": "ASO Agency (https://asoagency.io)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MehdiSaad/openclaw-aso-toolkit"
+  },
+  "bugs": {
+    "url": "https://github.com/MehdiSaad/openclaw-aso-toolkit/issues"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "openclaw": {
+    "extensions": ["./index.ts"],
+    "compat": { "pluginApi": ">=2026.3.24-beta.2" }
+  }
+}
